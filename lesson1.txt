@@ -20,3 +20,4 @@ LoginModel
 terminal/python->>>> import secrets>>> secrets.token_hex()>>>код в Settings модель
 
 1) pip install fast_jwt_auth
+2) pip install sqlalchemy-utils
