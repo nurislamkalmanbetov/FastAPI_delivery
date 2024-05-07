@@ -20,11 +20,6 @@ session = Session(bind=engine)
 
 @auth_router.get('/')
 async def hello(Authorize:AuthJWT=Depends()):
-
-    """
-        ## Sample hello world route
-    
-    """
     try:
         Authorize.jwt_required()
 
